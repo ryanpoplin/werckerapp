@@ -1,11 +1,25 @@
 /*global describe, it */
 'use strict';
 (function () {
-    describe('Give it some context', function () {
-        describe('maybe a bit more context here', function () {
-            it('should run here few assertions', function () {
-
+    
+    describe('A Happy Hour Application', function () {
+        
+        describe('Backbone.js Application Dependency Checker...', function () {
+            
+            it('jQuery is avaliable...', function () {
+            	expect(jQuery() !== undefined).to.equal(true);
             });
+            
+            it('Lodash is avaliable...', function () {
+            	expect(_ !== undefined).to.equal(true);
+            });
+
+            it('Backbone is avaliable...', function () {
+            	expect(Backbone !== undefined).to.equal(true);
+            });
+        
         });
+    
     });
+
 })();
