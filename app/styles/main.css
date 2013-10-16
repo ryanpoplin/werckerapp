@@ -13,7 +13,7 @@ body {
 
 .content-container {
     margin: 0 auto;
-    width: 1000px;
+    width: 800px;
 }
 
 #primary-header {
@@ -44,9 +44,14 @@ body {
 
 }
 
-#google-map {
+#map-canvas {
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #e0e0e0;
     height: 400px;
-    border: 1px solid #131313;
+}
+
+.info-window {
+    font-size: 0.8em;
 }
 
 #primary-footer {
@@ -57,7 +62,7 @@ body {
     font-size: 1.5625em;
 }
 
-@media (max-width: 1050px) {
+/*@media (max-width: 1050px) {
 
     .content-container {
         width: 800px;
@@ -95,5 +100,5 @@ body {
         width: 350px;
     }
 
-}
+}*/
 

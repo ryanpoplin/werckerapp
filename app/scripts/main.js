@@ -1,7 +1,11 @@
-console.log('A Happy Hour Application!');
+var App = {
+	Models: {},
+	Collections: {},
+	Locations: null
+};
 
-/*var App = {
-	Views: {}
-};*/
+window.carolinaAleHouse = new App.Models.Locale({
+	name: 'Carolina Ale House'
+	// add an info pattern...
+});
 
-// var searchView = new App.Views.SearchView();
